@@ -1,0 +1,35 @@
+package com.zss.java.abstractfactorypattern.model;
+
+/**
+ * 实体类 User
+ * @author lemon
+ * @date 2018/4/17 14:43
+ */
+public class User {
+    private String userId;
+    private String userName;
+
+    public String getUserId() {
+        return userId;
+    }
+
+    public void setUserId(String userId) {
+        this.userId = userId;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "userId='" + userId + '\'' +
+                ", userName='" + userName + '\'' +
+                '}';
+    }
+}
